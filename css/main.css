@@ -1,0 +1,137 @@
+html, body {
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1em;
+	background:#063852;
+	width:100%;
+	min-height:100%;
+	color:#FFF;
+	line-height: 200%;
+}
+
+h1 {
+	color:#54AACE;
+}
+
+a {
+	color:#54AACE;
+}
+
+a:hover {
+	color:#A70000;
+}
+
+.date-options {
+	color:#C9C8C9;
+}
+
+.alert {
+	margin-top:1em;
+}
+
+.grid {
+	overflow:hidden;
+}
+
+.grid-row {
+	height:220px;
+	clear:both;
+}
+
+.grid-row div {
+	float:left;
+	margin:0 0 .5% .5%;
+	background:#fff;
+	border-radius:.5em;
+	height:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.grid-row .img {
+	background:#fff no-repeat center center;
+	width:19.4%;
+	background-size:cover;
+}
+
+.calendar {
+	margin-top:3em;
+	margin-bottom:5em;
+}
+
+.calendar .grid p {
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.calendar .grid .img {
+	color:#FFF;
+	padding-top:1em;
+	font-size: 1.5em;
+	font-weight:bold;
+	text-align:center;
+}
+
+#date-12-1 {background-image:url(../../img/2014-12-1.jpg);}
+#date-12-2 {background-image:url(../img/2014-12-2.jpg);}
+#date-12-3 {background-image:url(../img/2014-12-3.jpg);}
+#date-12-4 {background-image:url(../img/2014-12-4.jpg);}
+#date-12-5 {background-image:url(../img/2014-12-5.jpg);}
+#date-12-6 {background-image:url(../img/2014-12-6.jpg);}
+#date-12-7 {background-image:url(../img/2014-12-7.jpg);}
+#date-12-8 {background-image:url(../img/2014-12-8.jpg);}
+#date-12-9 {background-image:url(../img/2014-12-9.jpg);}
+#date-12-10 {background-image:url(../img/2014-12-10.jpg);}
+#date-12-11 {background-image:url(../img/2014-12-11.jpg);}
+#date-12-12 {background-image:url(../img/2014-12-12.jpg);}
+#date-12-13 {background-image:url(../img/2014-12-13.jpg);}
+#date-12-14 {background-image:url(../img/2014-12-14.jpg);}
+#date-12-15 {background-image:url(../img/2014-12-15.jpg);}
+#date-12-16 {background-image:url(../img/2014-12-16.jpg);}
+#date-12-17 {background-image:url(../img/2014-12-17.jpg);}
+#date-12-18 {background-image:url(../img/2014-12-18.jpg);}
+#date-12-19 {background-image:url(../img/2014-12-19.jpg);}
+#date-12-20 {background-image:url(../img/2014-12-20.jpg);}
+#date-12-21 {background-image:url(../img/2014-12-21.jpg);}
+#date-12-22 {background-image:url(../img/2014-12-22.jpg);}
+#date-12-23 {background-image:url(../img/2014-12-23.jpg);}
+#date-12-24 {background-image:url(../img/2014-12-24.jpg);}
+#date-12-25 {background-image:url(../img/2014-12-25.jpg);}
+
+.past {
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+	filter: url(#greyscale);
+	filter: gray;
+	transition: 1s;
+}
+
+.img-locked {
+	background-image:url(../img/hidden_cat.png) !important;
+	color:#C9C8C9;
+}
+
+.past:hover, .past:focus, .past:active {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	filter: none;
+}
+
+.img-date:hover, .img-date:focus, .img-date:active {
+	box-shadow: inset 0 0 0 4px #54AACE, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+@media screen and (min-width:801px) and (max-width:1199px) {
+	.grid-row .img {width:24.5%;}
+}
+
+@media screen and (min-width:401px) and (max-width:800px) {
+	.grid-row .img {width:32%;}
+}
+
+@media screen and (max-width:400px) {
+	.grid-row .img {width:49%;}
+}
+
+
+
+
