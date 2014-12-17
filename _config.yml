@@ -1,11 +1,8 @@
 # Site settings
 title: 25 days of cats
-email: codecatz@me.com
 description: "Cats and cats. For 25 days."
-baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: codecatz
-github_username:  codecatz
+baseurl: "/25catdays"
+
 
 # Build settings
 markdown: kramdown
